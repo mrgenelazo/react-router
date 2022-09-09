@@ -8,13 +8,13 @@ const User = () => {
     <div>
       <ul>
         <li>
-          <h2>User 1</h2>
+          <h2>User one</h2>
         </li>
         <li>
-          <h2>User 2</h2>
+          <h2>User two</h2>
         </li>
         <li>
-          <h2>User 3</h2>
+          <h2>User three</h2>
         </li>
       </ul>
       <Outlet />
