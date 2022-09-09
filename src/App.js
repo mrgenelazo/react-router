@@ -1,21 +1,21 @@
 import React from 'react'
 import {Routes, Route} from 'react-router-dom'
-import Home from './compnents/Home';
+import Home from './components/Home';
 //import About from './compnents/About';
-import Navbar from './compnents/Navbar';
-import OrderSummary from './compnents/OrderSummary';
-import NoMatch from './compnents/NoMatch';
-import Products from './compnents/Products'
-import Featured from './compnents/Featured';
-import New from './compnents/New';
-import User from './compnents/User';
-import UserDetails from './compnents/UserDetails';
-import Admin from './compnents/Admin';
-import Profile from './compnents/Profile'
-import { AuthProvider } from './compnents/auth';
-import Login from './compnents/Login';
-import { RequireAuth } from './compnents/RequireAuth';
-const LazyAbout = React.lazy(()=> import('./compnents/About'))
+import Navbar from './components/Navbar';
+import OrderSummary from './components/OrderSummary';
+import NoMatch from './components/NoMatch';
+import Products from './components/Products'
+import Featured from './components/Featured';
+import New from './components/New';
+import User from './components/User';
+import UserDetails from './components/UserDetails';
+import Admin from './components/Admin';
+import Profile from './components/Profile'
+import { AuthProvider } from './components/auth';
+import Login from './components/Login';
+import { RequireAuth } from './components/RequireAuth';
+const LazyAbout = React.lazy(()=> import('./components/About'))
 
 function App() {
   return (
